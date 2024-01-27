@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cal {
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cal form input{
+    border: 0;
+    outline: 0;
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .display input {
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
